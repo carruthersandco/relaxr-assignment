@@ -1,0 +1,231 @@
+/*
+Project Name: Relaxr
+Author: Aimee Carruthers
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Open Sans, Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  display:flex;
+  flex-direction: column;
+}
+
+#header {
+  height:500px;
+  flex-grow: 1;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+div.logo {
+  height:15%;
+}
+
+.logo {
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom:20px;
+  font-size: 24px;
+  font-weight:  800;
+  color: #ffffff;
+}
+
+div.pom  {
+  height:20%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom:20px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight:  600;
+  color: #ffffff;
+}
+
+div.gin {
+  height:65%;
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.button-light {
+  width: 150px;
+  height: 30px;
+  background-color: #f9e42e;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-dark {
+  width: 150px;
+  height: 30px;
+  background-color: #033048;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight:  800;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#benefits {
+  background-color: #f0efef;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display:flex;
+  flex-direction: row;
+}
+
+div.left {
+  max-width: : 40%;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+p, li {
+  font-size: 13px;
+  font-weight: 300;
+  color: #606161;
+  padding-bottom: 1em;
+}
+
+#benefits ul {
+  margin-top: 10px;
+  list-style: disc inside none;
+}
+
+#testimonial {
+  background-color: #f0efef;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display:flex;
+  flex-direction: row;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+#testimonial div {
+  text-align: center;
+  max-width: 40%
+}
+
+.quote {
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+  color: #f0efef;
+  padding-bottom: 1em;
+}
+
+.quote-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #f0efef;
+  padding-bottom: 1em;
+}
+
+#signup {
+  background-color: #f9e42e;
+  height:60px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+div.sun {
+  height:70px;
+  text-align: center;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+#footer {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 20px;
+  padding-bottom:20px;
+  background-color: #121212;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h4.logo {
+  font-size: 24px;
+  font-weight:  800;
+  color: #f9e42e;
+}
+
+p.footer {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 9px;
+  font-weight:  600;
+  color: #f0efef;
+}
+
+div.social-icons img {
+  height:20px;
+  margin:10px;
+}
